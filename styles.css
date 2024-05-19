@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    max-width: 900px;
+    width: 70%;
+    margin: 20% auto ;
+    background-color:#FFE6E6;
+}
+.head{
+    text-align: left;
+    height: 10%;
+    overflow:hidden;
+    background: linear-gradient(to right,rgb(250, 157, 157) , #D18CE0);
+}
+.guitar{
+    padding: 7px;
+    width: 5em;
+    float: left;
+}
+.heading{
+    padding: 5px;
+    padding-left: 12%;
+    font-size: 1em;
+    color: whitesmoke ;
+}
+.main{
+    background-color: whitesmoke;
+    padding-bottom: 10%;
+}
+.image{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.im{
+    padding: 2%;
+    margin: auto 1%;
+    border: 0.1em solid #CFD2CF;
+}
+.for{
+    margin: auto;
+    width: 62%;
+}
+.formm{
+    text-align: left;
+    overflow: hidden;
+}
+.card{
+    color: grey;
+    font-weight :780;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    line-height: 3;
+}
+.css-input {
+    padding: 15px 36% 15px 15px;
+    font-size: 1em;
+    border-width: 3px;
+    border-color: #a3a3a3;
+    background-color: #d6d4d4;
+    color: #000000;
+    border-style: hidden;
+    border-radius: 0px;
+    box-shadow: 0px 0px 4px rgba(66,66,66,.57);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.css-input:focus {
+    outline:none;
+}
+.cssinput {
+    padding: 15px 6em 15px 15px;
+    font-size: 13px;
+    border-width: 3px;
+    border-color: #a3a3a3;
+    background-color: #dfdbdb;
+    color: #000000;
+    border-style: hidden;
+    border-radius: 0px;
+    box-shadow: 0px 0px 4px rgba(66,66,66,.57);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+.cssinput:focus {
+    outline:none;
+}
+.bru{
+    float: left;
+    padding: 0 5% 0 0;
+}
+.wow{
+    padding-bottom: 11%;
+}
+.btn {
+    background: rgb(250, 157, 157);
+    background-image: -webkit-linear-gradient(top, rgb(250, 157, 157), #D18CE0);
+    background-image: -moz-linear-gradient(top, rgb(250, 157, 157), #D18CE0);
+    background-image: -ms-linear-gradient(top, rgb(250, 157, 157), #D18CE0);
+    background-image: -o-linear-gradient(top, rgb(250, 157, 157), #D18CE0);
+    background-image: linear-gradient(to right, rgb(250, 157, 157), #D18CE0);
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 11px 40px 11px 40px;
+    text-decoration: none;
+    border-width: 0;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+  .pp{
+    text-align: center;
+  }
+
+  @media all and (min-width: 669px) and (max-width: 1235px){
+    .bru{
+        float: none;
+    }
+  }
